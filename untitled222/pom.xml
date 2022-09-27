@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<s:project xmlns:s="http://maven.apache.org/POM/4.0.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <s:modelVersion>4.0.0</s:modelVersion>
+
+    <s:groupId>org.example</s:groupId>
+    <s:artifactId>untitled222</s:artifactId>
+    <s:version>1.0-SNAPSHOT</s:version>
+    <s:dependencies>
+        <s:dependency>
+            <s:groupId>org.slf4j</s:groupId>
+            <s:artifactId>slf4j-nop</s:artifactId>
+            <s:version>1.7.13</s:version>
+        </s:dependency>
+
+
+        <s:dependency>
+            <s:groupId>org.apache.poi</s:groupId>
+            <s:artifactId>poi</s:artifactId>
+            <s:version>3.12</s:version>
+        </s:dependency>
+        <s:dependency>
+            <s:groupId>org.apache.poi</s:groupId>
+            <s:artifactId>poi-ooxml</s:artifactId>
+            <s:version>3.12</s:version>
+        </s:dependency>
+
+    </s:dependencies>
+    <s:properties>
+        <s:maven.compiler.source>18</s:maven.compiler.source>
+        <s:maven.compiler.target>18</s:maven.compiler.target>
+        <s:project.build.sourceEncoding>UTF-8</s:project.build.sourceEncoding>
+    </s:properties>
+
+</s:project>
